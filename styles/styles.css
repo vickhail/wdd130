@@ -28,6 +28,9 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
+        top: 0px;
+        left: 150px;
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
@@ -37,6 +40,8 @@ aside {
     text-align: center;
 }
 aside img {
+    position: relative;
+    top: 100px;
     width: 200px;
     height: auto;
 }
