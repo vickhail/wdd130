@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto+Slab:wght@500&display=swap");
+:root {
+    --primary-color: #0d62ad;
+    --secondary-color: #ff914d;
+    --accent1-color: #5ad7ff;
+    --accent2-color: #fefffe;
+
+    --heading-font: "Roboto+Slab", serif;
+    --paragraph-font: "Barlow", serif;
+
+    --nav-background-color: #fefffe;
+    --nav-link-color: #0d62ad;
+    --nav-hover-link-color: #ff914d;
+    --nav-hover-background-color: #5ad7ff;
+}
+html {
+    background-color: #fefffe;
+}
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+}
