@@ -33,10 +33,6 @@ aside {
     left: 150px;
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 aside img {
@@ -52,13 +48,13 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    background-color: #feddfa;
+    color: #000000;
 }
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 0px;
+    left: 130px;
 }
