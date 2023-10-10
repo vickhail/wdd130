@@ -31,12 +31,8 @@ body {
 }
 .grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
-}
-.main-content {
-    margin: 1rem;
 }
 main {
     grid-column: 2/3;
@@ -49,6 +45,15 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 5%;
+}
+p { 
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+ul {
+    grid-column: 1/3;
 }
 aside {
     position: relative;
@@ -77,6 +82,6 @@ footer {
 }
 aside h2 {
     position: absolute;
-    top: 0px;
+    top: 9px;
     left: 130px;
 }
