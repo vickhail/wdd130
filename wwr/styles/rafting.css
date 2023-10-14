@@ -108,17 +108,33 @@ margin-left: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+#google-map { 
+    width: 100%;
+}
+
 .employee {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.employee div {
+    flex: 1;
     text-align: center;
 }
 
 .employee img {
     width: 80px;
+    
 }
 
 .contact-form label, .contact-form textarea {
     display: block;
     margin: 10px 0;
+}
+
+.contact-form {
+    gap: 20px;
 }
 
 .contact-form input[type="text"],
@@ -142,4 +158,5 @@ margin-left: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    gap: 20px;
 }
