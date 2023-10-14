@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafting co. name: White Water Rafting About US</title>
-    <meta name="description" content="White Water Rafting About Us">
+    <title>Rafting co. name: White Water Rafting Content</title>
+    <meta name="description" content="White Water Rafting Content">
     <meta name="author" content="Mariajosé Escobar">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -19,40 +19,54 @@
         </nav>
     </header>
     <main>
-        <div class="hero"> 
-            <h1>White Water Rafting</h1>
-            <article>
-                <img src="images/happy_client.jpg" alt="Happy Client">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad distinctio reprehenderit fuga neque dicta, praesentium nisi delectus odit facilis quaerat nostrum minus. Quos fuga nemo, sed magni numquam iste.</p>
-            </article>
-            <img src="images/rafting_hero.jpg" alt="Rafting hero image, people doing rafting">
+        <div class="info">
+            <section class="company-info">
+                <h2>Company Information</h2>
+                <p>Address: 123 Main St, City, Country</p>
+                <p>Phone: +1 (111) 1111-1111</p>
+                <p>Email: notreal@email.com</p> 
+                <div id="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1273030.5450693723!2d-117.98269025!3d51.4510363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53995c6bd825adbb%3A0xcb636c3f3f05ebfd!2sColumbia-Shuswap%2C%20BC%2C%20Canada!5e0!3m2!1sen!2scl!4v1697261477988!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>  
         </div>
-        <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime incidunt reprehenderit dolorum saepe repudiandae, sed odit placeat quia enim, amet rerum voluptatum veritatis nulla nihil totam sunt, nemo assumenda animi.</p>
         </section>
-        <section>
-            <h2>Adventure Awaits You</h2>
-            <figure>
-                <img src="images/rafting1.jpg" alt="Rafting equipment">
-                <figcaption>Whitewater Adventure Course</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting2.jpg" alt="A large group enjoying rafting">
-                <figcaption>Advanced Whitewater Training</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting3.jpg" alt="A family enjoying rafting">
-                <figcaption>Paddle Power Rafting Course</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting4.jpg" alt="People rafting, photo from above">
-                <figcaption>Rapid Rumble Mania</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting5.jpg" alt="People enjoying rafting, photo from above">
-                <figcaption>H2-Oh-No!</figcaption>
-            </figure>
+        <div class="employee">
+            <img src="images/employee1.png" alt="Employee 1">
+            <p>Emily Rodriguez<br>River Guide</p>
+            <img src="images/employee2.png" alt="Employee 2">
+            <p>Liam Johnson<br>Rafting Instructor</p>
+            <img src="images/employee3.png" alt="Employee 3">
+            <p>Daniel Patel<br>Adventure Coordinator</p>
+        </div>
+        
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label>Message Purpose:</label>
+                <div>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
     <footer>
